@@ -31,5 +31,19 @@ public class Main {
         byte garlic = 67;
         System.out.println(garlic);
 
+        byte LP = 23;
+        System.out.println(LP);
+        byte AS = 27;
+        System.out.println(AS);
+        byte EA = 30;
+        System.out.println(EA);
+        short piecesOfPaper = 480;
+        System.out.println( piecesOfPaper + " листов");
+        int allStudents = LP + AS + EA;
+        System.out.println( allStudents + " человек");
+        int oneStudentPops = piecesOfPaper / allStudents;
+        System.out.println("На каждого ученика рассчитано "+ oneStudentPops + " листов бумаги" );
+
+
 
     }}
