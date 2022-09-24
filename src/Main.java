@@ -55,6 +55,15 @@ public class Main {
         float monthP = dayP * 30;
         System.out.println("за месяц машина произвела бутылок "+ monthP + " штук");
 
+        byte cansOfPaint = 120;
+        byte whiteCansOnClassroom = 2;
+        byte brownCansOnClassroom = 4;
+        int cansOnClassroom = whiteCansOnClassroom + brownCansOnClassroom;
+        float numberOfClassrooms = cansOfPaint / cansOnClassroom;
+        float whiteCans = numberOfClassrooms * whiteCansOnClassroom;
+        float brownCans = numberOfClassrooms * brownCansOnClassroom;
+        System.out.println("В школе, где " + numberOfClassrooms + " классов, нужно " + whiteCans + " банок белой краски и " + brownCans + " банок коричневой краски");
+
 
 
     }}
