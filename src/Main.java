@@ -64,6 +64,23 @@ public class Main {
         float brownCans = numberOfClassrooms * brownCansOnClassroom;
         System.out.println("В школе, где " + numberOfClassrooms + " классов, нужно " + whiteCans + " банок белой краски и " + brownCans + " банок коричневой краски");
 
+        byte numbersOfBananas = 5;
+        float bananaWeight = 80;
+        float weightOfBananas = bananaWeight * numbersOfBananas;
+        byte milk100mlWeight = 105;
+        float milkWeight = (200 / 100) * milk100mlWeight;
+        byte numbersOfiIceCream = 2;
+        float iceCreamWeight1 = 100;
+        float iceCreamWeight = numbersOfiIceCream * iceCreamWeight1;
+        byte numberOfEggs = 4;
+        float eggWeight = 70;
+        float eggsWeight = numberOfEggs * eggWeight;
+
+        float breakfastWeight = bananaWeight + milkWeight + iceCreamWeight + eggWeight;
+        System.out.println("вес завтрака в граммах, составляет " + breakfastWeight);
+        float breakfastWeightKg = breakfastWeight / 1000;
+        System.out.println("вес завтрака в килограммах составляет " + breakfastWeightKg);
+
 
 
 
