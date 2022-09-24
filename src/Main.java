@@ -44,6 +44,17 @@ public class Main {
         int oneStudentPops = piecesOfPaper / allStudents;
         System.out.println("На каждого ученика рассчитано "+ oneStudentPops + " листов бумаги" );
 
+        byte machinePerformance2minutes = 16;
+        float machinePerformanceMin = machinePerformance2minutes / 2;
+        float min20p = machinePerformanceMin * 20;
+        System.out.println("за 20 минут машина произвела бутылок "+ min20p+ " штук");
+        float dayP = machinePerformanceMin * 1440;
+        System.out.println("за сутки машина произвела бутылок "+ dayP + " штук");
+        float day3p = dayP * 3;
+        System.out.println("за три дня машина произвела бутылок "+ day3p + " штук");
+        float monthP = dayP * 30;
+        System.out.println("за месяц машина произвела бутылок "+ monthP + " штук");
+
 
 
     }}
