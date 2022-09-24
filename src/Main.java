@@ -81,9 +81,29 @@ public class Main {
         float breakfastWeightKg = breakfastWeight / 1000;
         System.out.println("вес завтрака в килограммах составляет " + breakfastWeightKg);
 
+        byte totalWeightKg = 7;
+        float totalWeightGr = totalWeightKg * 1000;
+        float dayFit250 = totalWeightGr / 250;
+        System.out.println(dayFit250 + " потребуется дней на похудение, если будет терять 250 гр/день");
+        float dayFit500 = totalWeightGr / 500;
+        System.out.println(dayFit500 + " потребуется дней на похудение, если будет терять 500 гр/день");
+        float middleFitGr = (250 + 500) / 2;
+        System.out.println(middleFitGr);
+        float middleFitDay = totalWeightGr / middleFitGr;
+        System.out.println(middleFitDay + " потребуется дней на похудение, если будет терять по среднему значению в день" );
+        float middleFit = middleFitDay % totalWeightGr;
+        System.out.println(middleFit + " потребуется дней на похудение, если будет терять по среднему значению в день");
+
+
+
+        }
 
 
 
 
 
-    }}
+
+
+
+
+    }
