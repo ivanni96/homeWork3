@@ -94,6 +94,28 @@ public class Main {
         float middleFit = middleFitDay % totalWeightGr;
         System.out.println(middleFit + " потребуется дней на похудение, если будет терять по среднему значению в день");
 
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+
+        double masha10 = masha + (masha * 0.1);
+        System.out.println(masha10);
+        double denis10 = denis + (denis * 0.1);
+        System.out.println(denis10);
+        double kristina10 = kristina + (kristina * 0.1);
+        System.out.println(kristina10);
+
+
+        double difMasha = (masha10 * 12) - (masha * 12);
+        System.out.println(difMasha);
+        double difDenis = (denis10 * 12) - (denis * 12);
+        System.out.println(difDenis);
+        double difKristina = (kristina10 * 12) - (kristina * 12);
+        System.out.println(difKristina);
+        System.out.println("Маша теперь получает "+ masha10 + " рублей. Годовой доход вырос на " + difMasha + " рублей");
+        System.out.println("Денис теперь получает "+ denis10 + " рублей. Годовой доход вырос на " + difDenis + " рублей");
+        System.out.println("Кристина теперь получает "+ kristina10 + " рублей. Годовой доход вырос на " + difKristina + " рублей");
+
 
 
         }
